@@ -11,10 +11,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+
     - uses: actions/checkout@v2
       with:
         submodules: true
         fetch-depth: 1
+
+    - name: Install bids-examples
+      run: |
+        cd tests
+        git clone git://github.com/bids-standard/bids-examples.git --depth 1
+
     - name: MOxUnit Action
       uses: joergbrech/moxunit-action@v1.1
       with:
@@ -22,6 +29,7 @@ jobs:
         src: +bids
         with_coverage: true
         cover_xml_file: coverage.xml
+
     - name: Code coverage
       uses: codecov/codecov-action@v1
       with:

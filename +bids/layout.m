@@ -16,7 +16,7 @@ function BIDS = layout(root, tolerant)
   % Copyright (C) 2018--, BIDS-MATLAB developers
 
   % -Validate input arguments
-  % ==========================================================================
+  % ===========================================================================================================================
   if ~nargin
     root = pwd;
   elseif nargin == 1

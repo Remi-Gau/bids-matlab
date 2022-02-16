@@ -1,4 +1,16 @@
 {
+  "probes": {
+    "name": "Probes",
+    "description": "TODO\n"
+  },
+  "contacts": {
+    "name": "Contacts",
+    "description": "TODO\n"
+  },
+  "ephys": {
+    "name": "Electrophysiology",
+    "description": "TODO\n"
+  },
   "2PE": {
     "name": "2-photon excitation microscopy",
     "description": "2-photon excitation microscopy imaging data\n"

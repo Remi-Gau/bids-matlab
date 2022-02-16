@@ -26,5 +26,9 @@
   "micr": {
     "name": "Microscopy",
     "description": "Data acquired with a microscope.\n"
+  },
+  "ephys": {
+    "name": "Electrophysiology",
+    "description": "Data acquired with a electrophysiology set up."
   }
 }

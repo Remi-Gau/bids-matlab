@@ -13,6 +13,9 @@ dwi:
   name: Diffusion-Weighted Imaging
   description: |
     Diffusion-weighted imaging (DWI).
+ephys:
+  name: Electrophysiology
+  description: Electrophysiology
 eeg:
   name: Electroencephalography
   description: Electroencephalography

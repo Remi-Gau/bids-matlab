@@ -15,7 +15,6 @@ examples/MoAEpilot
 env/*
 
 # other bids repos
-bids-specification/*
 bids-examples
 
 # input and output data involved in tests

@@ -1,0 +1,76 @@
+---
+- suffixes:
+  - ephys
+  extensions:
+  - .json
+  - .nix
+  - .nwb
+  entities:
+    subject: required
+    session: optional
+    sample: required
+    task: optional
+    run: optional
+    split: optional    
+
+- suffixes:
+  - channels
+  extensions:
+  - .json
+  - .tsv
+  entities:
+    subject: required
+    session: optional
+    sample: required
+    task: optional
+    run: optional 
+
+- suffixes:
+  - probes
+  extensions:
+  - .json
+  - .tsv
+  entities:
+    subject: required
+    session: optional
+    sample: required
+    task: optional
+    run: optional 
+
+- suffixes:
+  - contacts
+  extensions:
+  - .json
+  - .tsv
+  entities:
+    subject: required
+    session: optional
+    sample: required
+    task: optional
+    run: optional     
+
+- suffixes:
+  - events
+  extensions:
+  - .json
+  - .tsv
+  entities:
+    subject: required
+    session: optional
+    sample: required
+    task: required
+    run: optional 
+
+# Timeseries
+- suffixes:
+  - physio
+  - stim
+  extensions:
+  - .tsv.gz
+  - .json
+  entities:
+    subject: required
+    session: optional
+    sample: required
+    task: optional
+    run: optional

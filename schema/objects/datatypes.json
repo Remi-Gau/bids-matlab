@@ -11,6 +11,10 @@
     "name": "Diffusion-Weighted Imaging",
     "description": "Diffusion-weighted imaging (DWI).\n"
   },
+  "ephys": {
+    "name": "Electrophysiology",
+    "description": "Electrophysiology"
+  },
   "eeg": {
     "name": "Electroencephalography",
     "description": "Electroencephalography"

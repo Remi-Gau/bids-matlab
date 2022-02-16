@@ -28,3 +28,7 @@ micr:
   name: Microscopy
   description: |
     Data acquired with a microscope.
+ephys:
+  name: Electrophysiology
+  description: |
+    Data acquired with a electrophysiology set up.

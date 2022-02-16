@@ -1,6 +1,25 @@
 ---
 # This file defines valid BIDS file suffixes.
 # For rules regarding how suffixes relate to datatypes, see files in `rules/datatypes/`.
+
+# ADDED here for temporarily
+
+probes:
+  name: Probes
+  description: |
+    TODO
+
+contacts:
+  name: Contacts
+  description: |
+    TODO
+
+ephys:
+  name: Electrophysiology
+  description: |
+    TODO
+
+
 2PE:
   name: 2-photon excitation microscopy
   description: |
